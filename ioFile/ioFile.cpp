@@ -7,4 +7,5 @@ int main() {
 
 	// Membuka file dalam mode menulis
 	ofstream outfile;
+
 }
