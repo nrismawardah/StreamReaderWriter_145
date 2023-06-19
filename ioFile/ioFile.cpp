@@ -19,5 +19,7 @@ int main() {
 		getline(cin, baris);
 		// Loop akan berhenti jika anda memasukan karakter q
 		if (baris == "q") break;
+		// Menulis dan memasukan nilai dari 'baris' ke dalam file
+		outfile << baris << endl;
 	}
 }
