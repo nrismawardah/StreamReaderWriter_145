@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -37,7 +38,8 @@ int main() {
 		// Melakukan perulangan setiap baris
 		while (getline(infile, baris))
 		{
-
+			// Dan tampilkan di sini
+			cout << baris << '\n';
 		}
 	}
 }
